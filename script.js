@@ -57,8 +57,8 @@ forse.addEventListener('click', function () {
 testo9.addEventListener('click', function () {
     hideAndShow(testo9, testo10);
     setTimeout(function () {
-        window.close();
         finish.classList.remove('d-none');
+        window.close();
     }, 3000);
 });
 
@@ -69,8 +69,8 @@ si.addEventListener('click', function () {
 testoscarpeno.addEventListener('click', function () {
     hideAndShow(testo11, testo12);
     setTimeout(function () {
-        window.close();
         finish.classList.remove('d-none');
+        window.close();
     }, 3500);
 });
 
