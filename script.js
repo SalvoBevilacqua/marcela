@@ -16,7 +16,7 @@ const testoscarpeno = document.querySelector('.testo-scarpe-no');
 const testo12 = document.querySelector('.testo-12');
 const testoscarpesi = document.querySelector('.testo-scarpe-si');
 const testo13 = document.querySelector('.testo-13');
-
+const finish = document.querySelector('.finish');
 
 testo1.addEventListener('click', function () {
     hideAndShow(testo1, testo2);
@@ -58,6 +58,7 @@ testo9.addEventListener('click', function () {
     hideAndShow(testo9, testo10);
     setTimeout(function () {
         window.close();
+        finish.classList.remove('d-none');
     }, 3000);
 });
 
@@ -69,6 +70,7 @@ testoscarpeno.addEventListener('click', function () {
     hideAndShow(testo11, testo12);
     setTimeout(function () {
         window.close();
+        finish.classList.remove('d-none');
     }, 3500);
 });
 
