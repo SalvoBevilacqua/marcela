@@ -17,6 +17,7 @@ const testo12 = document.querySelector('.testo-12');
 const testoscarpesi = document.querySelector('.testo-scarpe-si');
 const testo13 = document.querySelector('.testo-13');
 const finish = document.querySelector('.finish');
+const start = document.querySelector('.start');
 
 testo1.addEventListener('click', function () {
     hideAndShow(testo1, testo2);
@@ -75,7 +76,7 @@ testoscarpeno.addEventListener('click', function () {
 });
 
 testoscarpesi.addEventListener('click', function () {
-    hideAndShow(testo11, testo13);
+    hideAndShow(start, testo13);
 });
 
 function hideAndShow(target1, target2) {
